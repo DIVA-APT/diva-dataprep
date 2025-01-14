@@ -1,0 +1,42 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# 가상 환경
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook 관련
+.ipynb_checkpoints
+
+# 데이터 파일
+data/
+*.csv
+*.json
+*.xlsx
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일
+.env
+.env.local
+
+# IDE 설정 파일
+.vscode/
+.idea/
+*.xml
+
+# 배포 관련
+build/
+dist/
+*.egg-info/
+
+# 기타
+*.DS_Store
+*.swp
