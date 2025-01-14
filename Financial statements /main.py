@@ -4,11 +4,14 @@ import time
 from datetime import datetime
 
 from generate_report.report_generator import generate_one_page_report
+from dotenv import load_dotenv
+import os
 
+load_dotenv()  # .env 파일에서 환경 변수 로드
+API_KEY = os.getenv("DART_API_KEY")
 ##########################
 # 설정
 ##########################
-API_KEY = "YOUR_API_KEY"   # 유효한 DART 인증키
 CORP_CODE = "00126380"     # 삼성전자 예시
 COLLECT_TIME = "06:00"     # 정해진 시간
 # 테스트에서는 즉시 실행

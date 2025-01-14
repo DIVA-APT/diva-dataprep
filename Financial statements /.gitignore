@@ -10,7 +10,7 @@ venv/
 env/
 .venv/
 .env/
-
+.env
 # Jupyter Notebook 관련
 .ipynb_checkpoints
 
