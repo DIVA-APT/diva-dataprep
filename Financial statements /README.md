@@ -12,7 +12,7 @@
 ```sh
 ├─Financial statements
 │  │  README.md
-│  │  main.py
+│  │  test_fin.py
 │  ├─data_collection
 │  │      api_ds001.py
 │  │      api_ds002.py
